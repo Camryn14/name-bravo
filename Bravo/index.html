@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CW|card game</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/cardGameStyles.css">
+
+
+</head>
+
+
+<body>
+
+  <a href="pages/score.html">view score board</a>
+
+  <!-- todo: make nav bar and score and ... -->
+
+  <!-- make game board, iss2 -->
+
+  <div class="container-fluid vh-100">
+
+    <!-- first row hearts and spakes  -->
+    <div class="row h-25">
+      <div class="d-inline-flex justify-content-between m-0 p-0">
+        <div id="fish" class=" m-0 p-0">🐟</div>
+        <div id="tropical fish" class=" m-0 p-0">🐠</div>
+      </div>
+    </div>
+
+    <!--deck o cards  -->
+    <div class="row h-50">
+      <div class="col-md-4 offset-md-4 text-center border">
+        <div id="stackOfCards" class="border text-wrap">
+          <h3>Gold fish</h3>
+          <!-- <p class="text-wrap"></p> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- first row hearts and spakes  -->
+    <div class="row h-25">
+      <div class="d-inline-flex justify-content-between m-0 p-0">
+        <div id="blow fish" class=" m-0 p-0">🐡</div>
+        <div id="shark" class=" m-0 p-0">🦈</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Storage Display Box (Bottom Right) -->
+  <div id="storageDisplay" style="position: fixed; bottom: 20px; right: 20px; width: 300px; border: 2px solid #333; background: white; padding: 15px; border-radius: 8px; font-size: 12px; z-index: 1000;">
+    <h6 style="margin: 0 0 10px 0; text-align: center; border-bottom: 1px solid #ddd; padding-bottom: 5px;">Storage Data</h6>
+    
+    <div style="margin-bottom: 8px;">
+      <strong>Cookies:</strong>
+      <div id="cookieData" style="font-family: monospace; background: #f8f9fa; padding: 5px; border-radius: 3px; min-height: 20px;">None</div>
+    </div>
+    
+    <div style="margin-bottom: 8px;">
+      <strong>Session Storage:</strong>
+      <div id="sessionData" style="font-family: monospace; background: #fff3cd; padding: 5px; border-radius: 3px; min-height: 20px;">None</div>
+    </div>
+    
+    <div>
+      <strong>Local Storage:</strong>
+      <div id="localData" style="font-family: monospace; background: #d1ecf1; padding: 5px; border-radius: 3px; min-height: 20px;">None</div>
+    </div>
+  </div>
+
+</body>
+
+
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"
+  integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="scripts/cardGameScripts.js"></script>
+
+
+
+
+<body>
+
+</body>
+
+</html>

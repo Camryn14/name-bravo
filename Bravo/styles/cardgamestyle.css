@@ -1,0 +1,16 @@
+/* * {
+    border: dashed 1px #000; 
+} */
+
+.redClass {
+
+    border: solid 5px red; 
+}
+
+#spades {
+
+    height: 150px; 
+    width: 150px; 
+    background-color: lightpink;
+
+}
