@@ -7,6 +7,8 @@
   <title>CW | Card Game</title>
 
   <!-- Normalize + Bootstrap -->
+   <!-- Google Font: Quicksand -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -16,9 +18,15 @@
 </head>
 
 <body>
+  <div class="project-card">
+  <img src="images/game thumb nail.png" alt="Card Game Screenshot" class="project-thumb">
+</div>
+
   <!-- Navbar -->
    <a href="pages/score.html">view score board</a>
   <header>
+</head>
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Card Game</a>
@@ -33,6 +41,9 @@
                 to Play</a></li>
             <li class="nav-item"><a class="nav-link" href="https://github.com/Camryn14" target="_blank">Dev Profile</a>
             </li>
+            <p>✅ <a href="https://validator.w3.org/nu/?doc=https://https://github.com/Camryn14/lucky-fish-bravo/blob/main/index.html">Nu HTML Validator</a></p>
+<p>✅ <a href="https://wave.webaim.org/report#/https://https://github.com/Camryn14/lucky-fish-bravo/blob/main/index.html">WAVE Accessibility Report</a></p>
+
           </ul>
         </div>
       </div>
@@ -52,7 +63,7 @@
     <div class="row h-50 d-flex justify-content-center align-items-center">
       <div class="col-md-4 text-center border p-3">
         <div id="stackOfCards">
-          <h3>Deck</h3>
+          <h3>Lucky Fish</h3>
         </div>
         <button id="drawCardBtn" class="btn btn-primary mt-3">Draw Random Cards</button>
         <div id="cardOutput" class="position-relative mt-3" style="height: 100px;"></div>
@@ -94,8 +105,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>Click "Draw Random Cards" to draw 2 cards. Drag them around. Use the settings form to save your player name
-            and theme.</p>
+          <p>Click "Draw Random Cards" to draw 2 cards and try and get lucky by getting the same cards. See how long it takes you!.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
