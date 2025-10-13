@@ -29,5 +29,5 @@ The goal of this card game is to click the random button until you match the car
 - **Cookies** for temporary user info  
 
 ---
- ![wireframe](image0.jpeg)
+ ![wireframe](/images/image0.jpeg)
 
