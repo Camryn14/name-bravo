@@ -3,14 +3,61 @@
 } */
 
 .redClass {
-
-    border: solid 5px red; 
+  border: solid 5px red; 
 }
 
 #spades {
+  height: 150px; 
+  width: 150px; 
+  background-color: lightpink;
+}
 
-    height: 150px; 
-    width: 150px; 
-    background-color: lightpink;
+.box {
+  width: var(--random-size);
+  height: var(--random-size);
+  background: red;
+}
 
+/* ============================================= */
+/* ✅ New Styling for Card Game */
+/* ============================================= */
+
+.card-tile {
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease-in-out, background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;         /* Adjust as needed */
+}
+
+.card-tile:hover {
+  transform: scale(1.05);
+  background-color: #f8f9fa;
+}
+
+.card-tile[dataset-flipped="true"] {
+  background-color: #d1ffd1; /* green-ish on match */
+}
+
+/* Score area */
+#score {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#display  {
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* pushes it towards vertical center */
+}
+
+#cardOutput {
+  font-size: 50px;
+  font-weight: bold;
+  cursor: grab;
+  user-select: none;
 }
