@@ -30,4 +30,4 @@ The goal of this card game is to click the random button until you match the car
 
 ---
  ![wireframe](image0.jpeg)
-This is a simplified version. Deploy to GitHub Pages.
+
