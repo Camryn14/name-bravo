@@ -1,6 +1,9 @@
-/* * {
-    border: dashed 1px #000; 
-} */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+h1, h2, #score, .card-tile {
+  font-family: 'Quicksand', sans-serif;
+}
 
 .redClass {
   border: solid 5px red; 
@@ -18,10 +21,6 @@
   background: red;
 }
 
-/* ============================================= */
-/* ✅ New Styling for Card Game */
-/* ============================================= */
-
 .card-tile {
   background: white;
   border-radius: 8px;
@@ -31,7 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;         /* Adjust as needed */
+  height: 100px;        
 }
 
 .card-tile:hover {
